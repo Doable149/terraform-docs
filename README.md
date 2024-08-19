@@ -39,7 +39,7 @@ Stable binaries are also available on the [releases] page. To install, download 
 binary for your platform from "Assets" and place this into your `$PATH`:
 
 ```bash
-curl -Lo ./terraform-docs.tar.gz https://github.com/terraform-docs/terraform-docs/releases/download/v0.18.0/terraform-docs-v0.18.0-$(uname)-amd64.tar.gz
+curl -Lo ./terraform-docs.tar.gz "https://github.com/terraform-docs/terraform-docs/releases/download/v0.18.0/terraform-docs-v0.18.0-$(uname)-amd64.tar.gz"
 tar -xzf terraform-docs.tar.gz
 chmod +x terraform-docs
 mv terraform-docs /usr/local/bin/terraform-docs
